@@ -1,0 +1,186 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #569dd7;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #007BFF;
+}
+
+#hero {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#hero img {
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px; 
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #0056b3;
+}
+
+
+.about, .skills, .projects, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2, .skills h2, .projects h2, .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.habilidades {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.habilidades-blandas, .habilidades-duras {
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.habilidades-blandas h3, .habilidades-duras h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.habilidades-blandas ul, .habilidades-duras ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.habilidades-blandas li, .habilidades-duras li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+.projects ul {
+    list-style: none;
+}
+
+.projects ul li {
+    margin-bottom: 10px;
+}
+
+.projects ul li a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.projects ul li a:hover {
+    text-decoration: underline;
+}
+
+.gitignore {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gitignore h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.gitignore p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.gitignore ol {
+    margin-left: 20px;
+}
+
+.gitignore li {
+    margin-bottom: 10px;
+}
+
+.gitignore pre {
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.social-links a {
+    font-size: 2em;
+    margin: 0 10px;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007BFF;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
